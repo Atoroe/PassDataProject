@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3314E99263DC9A000E7EC5C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3314E98263DC9A000E7EC5C /* SecondViewController.swift */; };
 		E357E893263D5E670068179A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E357E892263D5E670068179A /* AppDelegate.swift */; };
 		E357E895263D5E670068179A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E357E894263D5E670068179A /* SceneDelegate.swift */; };
 		E357E897263D5E670068179A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E357E896263D5E670068179A /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E3314E98263DC9A000E7EC5C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E357E88F263D5E670068179A /* PassDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E357E892263D5E670068179A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E357E894263D5E670068179A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				E357E89B263D5E6F0068179A /* Assets.xcassets */,
 				E357E89D263D5E6F0068179A /* LaunchScreen.storyboard */,
 				E357E8A0263D5E6F0068179A /* Info.plist */,
+				E3314E98263DC9A000E7EC5C /* SecondViewController.swift */,
 			);
 			path = PassDataProject;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3314E99263DC9A000E7EC5C /* SecondViewController.swift in Sources */,
 				E357E897263D5E670068179A /* ViewController.swift in Sources */,
 				E357E893263D5E670068179A /* AppDelegate.swift in Sources */,
 				E357E895263D5E670068179A /* SceneDelegate.swift in Sources */,
