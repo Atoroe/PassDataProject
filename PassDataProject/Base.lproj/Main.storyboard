@@ -46,6 +46,13 @@
                                     <action selector="loginTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aep-6D-3I6"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pass Data Project" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sWJ-Rn-aqr">
+                                <rect key="frame" x="20" y="734" width="374" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray5Color"/>
@@ -53,6 +60,7 @@
                     <connections>
                         <outlet property="loginTF" destination="kxW-nI-Y2G" id="Btn-Vx-S5X"/>
                         <outlet property="passwordTF" destination="DAx-xp-Qys" id="6Vn-Tk-jTH"/>
+                        <outlet property="resulLabel" destination="sWJ-Rn-aqr" id="KFf-3q-Rpg"/>
                         <segue destination="OnW-Ih-B8A" kind="show" identifier="showSecondVC" id="Czz-Wd-Xt5"/>
                     </connections>
                 </viewController>
@@ -84,6 +92,7 @@
                                 </state>
                                 <connections>
                                     <action selector="goBackTapped:" destination="OnW-Ih-B8A" eventType="touchUpInside" id="ec2-MN-Fp6"/>
+                                    <segue destination="8Q7-K2-zlA" kind="unwind" unwindAction="unwindWithSegue:" id="4iS-vC-cPe"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -96,6 +105,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vuh-WO-4ph" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="8Q7-K2-zlA" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1002.8985507246377" y="93.75"/>
         </scene>

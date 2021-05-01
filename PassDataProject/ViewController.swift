@@ -11,16 +11,15 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var loginTF: UITextField!
     @IBOutlet weak var passwordTF: UITextField!
+    @IBOutlet weak var resulLabel: UILabel!
     
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
     @IBAction func loginTapped(_ sender: UIButton) {
         performSegue(withIdentifier: "showSecondVC", sender: nil)
+    }
+    
+    @IBAction func unwind(segue: UIStoryboardSegue) {
+        guard let secondVC = segue.source as? SecondViewController else { return }
+        resulLabel.text = secondVC.label.text
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
